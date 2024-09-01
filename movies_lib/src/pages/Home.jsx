@@ -22,7 +22,7 @@ export const Home = () => {
       getTopRatedMovies(topRatedUrl)
     }, [])
 
-    console.log(moviesURL, apiKey)
+    console.log("Oba, ");
     return(
         <div className="container">
             <h2 className="title">
